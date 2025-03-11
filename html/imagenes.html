@@ -1,0 +1,98 @@
+<html>
+    <head>
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <title>Imagenes en HTML</title>
+        <link rel="stylesheet" href="../css/style.css" type="text/css">
+        <style>
+            section{
+                text-align: center
+            }
+            img{
+                width: 25%;
+                display: inline-block;
+                margin-left: 20px;
+                margin-right: 20px;
+            }
+            p,h2{
+                text-align: justify;
+            }
+            #img_gray{
+                filter: grayscale(100%);
+            }
+            #img_brillo{
+                filter: brightness(170%);
+            }
+            #img_contraste{
+                filter: contrast(150%)
+            }
+            #img_invertido{
+                filter: invert(100%)
+            }
+            #img_opacidad{
+                filter: opacity(50%)
+            }
+            #img_saturacion{
+                filter: saturate(190%)
+            }
+            #img_sepia{
+                filter: sepia(80%)
+            }
+            #img_blur{
+                filter: blur(1px)
+            }
+            #img_huerotate{
+                filter: hue-rotate(45deg)
+            }
+            #img_sombras{
+                filter: drop-shadow(10px 10px 10px grey);
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Imagenes en HTML</h1>
+        </header>
+        <nav>
+            <ul>
+                 <a href="../index.html"><img id="icono-l" src="Imagenes/c.png" alt="inicio"></a>
+                  <li><a href="../html/listas.html">Listas</a></li>
+                <li><a href="../html/encabezados.html">Formatos</a></li>
+                <li><a href="../html/enlaces.html">Enlaces</a></li>
+                <li><a href="../html/tablas.html">Tablas</a></li>
+                <li><a href="../html/imagenes.html">Imagenes</a></li>
+                <li><a href="../html/audios.html">Audios</a></li>
+                <li><a href="../html/videos.html">Videos</a></li>
+                <li><a href="../html/formularios.html">Formularios</a></li>
+            </ul>
+        </nav> 
+        <main>
+            <section>
+                <h2>Titulo</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie porttitor maximus. Sed dapibus augue quis magna congue venenatis. Maecenas ac dui nisl. Pellentesque porttitor elit quis mauris semper imperdiet. Morbi ut interdum turpis. Integer malesuada eget velit viverra vehicula.</p>
+                <img  class="animate__animated animate__shakeX aniamte__delay-3s animate__repeat-3" src="Imagenes/imagen%201.jpg" alt="Pareja de amor">
+                <img id="imagen_animada" src="../Imagenes/imagen%201.jpg" alt="sol">
+            </section>
+            <section>
+                <h2>Titulo</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie porttitor maximus. Sed dapibus augue quis magna congue venenatis. Maecenas ac dui nisl. Pellentesque porttitor elit quis mauris semper imperdiet. Morbi ut interdum turpis. Integer malesuada eget velit viverra vehicula.</p>
+                <a href="https://etn.com.mx/blog/celebracion-san-valentin-mexico/"> <img class="animate__animated animate__heartBeat animate__delay__delay-5s animate__infinite" id="imagen_ico" src="../Imagenes/imagen%202.png" alt="corazon" target="new"></a>
+            </section>
+            <section>
+                <h2>Titulo</h2>
+                <p> <img class="img_flotantes" id="img_left" src="../Imagenes/imagen%203.png"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie porttitor maximus. Sed dapibus augue quis magna congue venenatis. Maecenas ac dui nisl. Pellentesque porttitor elit quis mauris semper imperdiet. Morbi ut interdum turpis. Integer malesuada eget velit viverra vehicula.</p>
+                <p> <img class="img_flotantes" id="img_right" src="../Imagenes/imagen%204"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie porttitor maximus. Sed dapibus augue quis magna congue venenatis. Maecenas ac dui nisl. Pellentesque porttitor elit quis mauris semper imperdiet. Morbi ut interdum turpis. Integer malesuada eget velit viverra vehicula.</p>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie porttitor maximus. Sed dapibus augue quis magna congue venenatis. Maecenas ac dui nisl. Pellentesque porttitor elit quis mauris semper imperdiet. Morbi ut interdum turpis. Integer malesuada eget velit viverra vehicula.</p>
+            </section>
+            <section id="fondo_imagen" src="../Imagenes/imagen%205">
+                <h2>Imagenes de fondo o background</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil aliquam ea quia veritatis tenetur, et, numquam odio labore provident eos deserunt in nostrum explicabo incidunt culpa. Veniam obcaecati voluptatibus repellat alias, suscipit architecto nihil labore omnis harum sunt quidem dolor quaerat similique ullam molestiae sequi perspiciatis sint nesciunt hic! Dolorum quos placeat aspernatur, distinctio dolor repudiandae. Possimus veniam reiciendis aut necessitatibus neque doloremque, voluptas sit sed, adipisci odio ex nemo magnam vero dolorem iusto corporis! Asperiores pariatur officiis, quidem atque, dignissimos architecto saepe labore nostrum beatae, suscipit dolorem. Fugiat et corporis sequi eaque, odit blanditiis inventore quidem quo magnam voluptas.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti debitis reprehenderit nesciunt excepturi odio quisquam et sed quo assumenda beatae saepe placeat, incidunt ipsum tenetur cum at porro nemo iure ipsam consequuntur, dolor tempore veniam esse. Commodi est eaque explicabo animi, illum optio esse velit dolor hic qui amet cumque quia. Ut in blanditiis rem, nemo, magni quisquam aliquid tempora.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quasi placeat eveniet perspiciatis molestiae sed voluptas blanditiis, perferendis architecto veritatis expedita tempora itaque distinctio assumenda dolores, tenetur dolor cum ipsa impedit minima sequi at, voluptatibus deserunt temporibus. Natus, optio facere!</p>
+            </section>
+            
+        </main>
+        <footer>
+            <h6>Elaborado por Javier Aguila Campos</h6>
+        </footer>
+    </body>
+</html>

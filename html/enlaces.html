@@ -1,0 +1,124 @@
+<html>
+    <head>
+        <title>Enlaces en HTML</title>
+        <style type="text/css">
+            *{
+                padding: 0;
+                margin: 0;
+            }
+            header,nav,main,footer{
+                width: 80%;
+                padding: 30px;
+                background-color: #A31D1D;
+                color: #F8F2DE;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            header{
+                height: 100px 
+            }
+            nav{
+                height: 50px;
+                background-color: #F8F2DE;
+            }
+            nav ul li{
+                list-style-type: none;
+                width: 10%;
+                height: 30px;
+                background-color: #EFE9D5;
+                display: inline-block;
+                padding: 10px;
+            }
+            nav ul{
+                text-align: center;
+            }
+            main{
+                height: auto;
+                background-color: #D84040;
+            }
+            section{
+                width: 70%;
+                height: 200px;
+                background-color: #A31D1D;
+                margin-bottom: 30px;
+                margin-left: auto;
+                margin-right: auto;
+                padding: 30px;
+            }
+            header, footer{
+                text-align: center;
+            }
+            a{
+                text-decoration: none;
+            }
+            a:link{
+               color: firebrick; 
+            }
+            a:visited{
+                color: indigo;
+            }
+            a:active{
+               color: firebrick; 
+            }
+            a:hover{
+                color: brown;
+            }
+            h2{
+                margin-bottom: 30px;
+            }
+            nav ul li a{
+                color: #27445D;
+            }
+            nav il li a:link,  nav ul li a:visited{
+                color: #497D74;
+                text-decoration: none;
+            }
+            nav ul li:hover{
+                background-color: #EFE9D5;
+                width: 12%;
+            }
+            nav ul li a:hover{
+                color: #27445D;
+            }
+        </style>
+    </head>
+        <body>
+        <header>
+            <h1>Enlaces en html</h1>
+        </header>
+        <nav>
+              <ul>
+                  <a href="../index.html"><img id="icono-l" src="Imagenes/c.png" alt="inicio"></a>
+                  <li><a href="../html/listas.html">Listas</a></li>
+                <li><a href="../html/encabezados.html">Formatos</a></li>
+                <li><a href="../html/enlaces.html">Enlaces</a></li>
+                <li><a href="../html/tablas.html">Tablas</a></li>
+                <li><a href="../html/imagenes.html">Imagenes</a></li>
+                <li><a href="../html/audios.html">Audios</a></li>
+                <li><a href="../html/videos.html">Videos</a></li>
+                <li><a href="../html/formularios.html">Formularios</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <h2>Enlaces externos</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempor enim leo, nec facilisis metus accumsan sagittis. Morbi iaculis, velit quis sodales hendrerit, risus est fermentum quam, a euismod leo mi non massa. Sed consequat nisi eget mattis convallis. <a href="http://www.buap.mx">Benemerita Universidad Autonoma de Puebla</a> In hac habitasse platea dictumst. Nunc suscipit feugiat lacus, ut semper erat hendrerit sit amet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum eros quam, porta a elit in, dignissim tristique justo. Sed in sollicitudin tortor, in condimentum.</p>
+            </section>
+            <section>
+                <h2>Enlaces externos</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempor enim leo, nec facilisis metus accumsan sagittis. Morbi iaculis, velit quis sodales hendrerit, risus est fermentum quam, a euismod leo mi non massa. Sed consequat nisi eget mattis convallis.<a href="Encabezados.html">Encabezados</a> In hac habitasse platea dictumst. Nunc suscipit feugiat lacus, ut semper erat hendrerit sit amet. Interdum et malesuada fames ac ante ipsum primis in faucibus.<a href="Listas.html">Listas</a> Vestibulum eros quam, porta a elit in, dignissim tristique justo. Sed in sollicitudin tortor, in condimentum.</p>
+            </section>
+            <section>
+                <h2>Enlaces a archivo</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempor enim leo, nec facilisis metus accumsan sagittis. Morbi iaculis, velit quis sodales hendrerit, risus est fermentum quam, a euismod leo mi non massa. <a href="23%20Rodriguez%20Tellez%20Angel%20-%20Formatos%20de%20texto.pdf" target="_blank">Codigo de practica de formatos</a>Sed consequat nisi eget mattis convallis. In hac habitasse platea dictumst. Nunc suscipit feugiat lacus, ut semper erat hendrerit sit amet. Interdum et malesuada fames ac ante ipsum primis in faucibus. <a href="23%20Rodriguez%20Tellez%20Angel%20-%20Formatos%20de%20listas.pdf" target="_blank">Codigo de listas</a>Vestibulum eros quam, porta a elit in, dignissim tristique justo. Sed in sollicitudin tortor, in condimentum.</p>
+            </section>
+            <section>
+                <h2>Enlaces con descarga de archivo</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempor enim leo, nec facilisis metus accumsan sagittis.<a href="23%20Rodriguez%20Tellez%20Angel%20-%20Formatos%20de%20texto.jpg.png"download>Vista de navegador de formatos</a> Morbi iaculis, velit quis sodales hendrerit, risus est fermentum quam, a euismod leo mi non massa. Sed consequat nisi eget mattis convallis. In hac habitasse platea dictumst. Nunc suscipit feugiat lacus, ut semper erat hendrerit sit amet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum eros quam, porta a elit in, dignissim tristique justo. Sed in sollicitudin tortor, in condimentum.</p>
+            </section>
+        </main>
+        <footer>
+            <h6>Elaborado por Javier Aguila Campos</h6>
+        </footer>
+        </body>
+</html>

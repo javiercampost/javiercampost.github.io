@@ -1,0 +1,120 @@
+<html>
+    <head>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+      <title>Formularios en html</title>
+      <link rel="stylesheet" href="../css/style.css" type="text/css">
+      <style type="text/css">
+            
+        #icono-l{
+                width: 30px;
+            }
+        </style>  
+    </head>
+    <body>
+        <header>
+          <h1 class="animate__animated animate__fadeIn">Formularios en html</h1>  
+        </header>
+        <nav>
+            <ul>
+                  <a href="../index.html"><img id="icono-l" src="Imagenes/c.png" alt="inicio"></a>
+                  <li><a href="../html/listas.html">Listas</a></li>
+                <li><a href="../html/encabezados.html">Formatos</a></li>
+                <li><a href="../html/enlaces.html">Enlaces</a></li>
+                <li><a href="../html/tablas.html">Tablas</a></li>
+                <li><a href="../html/imagenes.html">Imagenes</a></li>
+                <li><a href="../html/audios.html">Audios</a></li>
+                <li><a href="../html/videos.html">Videos</a></li>
+                <li><a href="../html/formularios.html">Formularios</a></li>
+            </ul>
+        </nav>
+        <main>
+           <section>
+               <h2>Formulario</h2>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor consequuntur quisquam, beatae rem, esse commodi expedita omnis porro exercitationem quasi quos ratione aut assumenda autem blanditiis corporis earum nemo accusantium. Quas porro accusamus id molestiae cum eaque rerum hic aliquid culpa excepturi ab laboriosam, repellat corrupti animi incidunt quasi sint suscipit cumque laborum natus! Velit nulla nam vero ab fugit est doloribus, reprehenderit temporibus eveniet non repellendus autem molestiae earum, aspernatur totam sunt numquam officia, voluptas illum magni accusantium repudiandae?</p>
+               <form class="animate_animated animate__bounceIn animate__delay-2s animate__repeat-2" action="" method="get">
+                   <label for="fnombre">Nombre</label>
+                   <input type="text" id="fnombre" name="fnombre" value="Escribe tu nombre...">
+                    <label for="fapellido">Apellido</label>
+                   <input type="text" id="fapellido" name="fapellido" value="Escribe tu apellido aqui...">
+                   <input type="submit" value="Enviar">
+               </form>
+           </section> 
+           <section>
+               <h2>Formulario</h2>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque modi laudantium saepe molestiae perferendis sequi nam odit possimus qui, hic deserunt suscipit voluptate eius recusandae vel praesentium assumenda porro ipsum incidunt. Incidunt dolore, voluptatem minima, fugiat molestiae officia nihil sapiente facilis ab placeat cumque omnis veniam repudiandae, commodi suscipit repellat.</p>
+               <form class="animate_animated animate__bounceIn animate__delay-2s animate__repeat-2" action="" method="get">
+                    <label for="fecha">Fecha</label>
+                    
+                    <input type="date" id="fecha" name="fecha">
+                    
+                    <input type="submit" value="Enviar">
+                    
+                </form>
+           </section>
+           <section>
+               <h2>Formulario</h2>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis sunt cum est iste odio repellat quidem ducimus nostrum itaque doloribus aut culpa magnam id, nemo dignissimos explicabo, praesentium ipsum vero libero laboriosam non alias? Rerum temporibus consequatur tempore mollitia dolorum autem, velit tenetur cupiditate labore nobis veritatis hic saepe maiores reiciendis molestiae, ex rem. Amet ducimus, expedita voluptatum voluptate debitis reiciendis iste laudantium, minus autem minima, voluptatem culpa vitae. Repellat perspiciatis, nulla! Sit, ut, ducimus. Beatae dolore, ipsam est fuga?</p>
+               <form class="animate_animated animate__bounceIn animate__delay-2s animate__repeat-2" action="" method="get">
+                   <label for="fnumerotel">Nùmero de telèfono</label>
+                   
+                    <input type="tel"id="fnumerotel" name="fnumerotel"
+                    value="123-456-7890">
+                
+                    <input type="submit" value="Enviar">
+                </form>
+           </section>
+           <section>
+               <h2>Formulario</h2>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum cum doloremque illo quos in, exercitationem iusto molestias nemo qui animi, similique eum veniam fugit harum unde voluptas enim, mollitia ratione sed et. Similique quo cupiditate, reiciendis iure sunt eius ea. Neque deserunt quos, voluptatibus error vitae perspiciatis non id molestias cumque, quo iusto tempore ducimus? Ipsa quas, qui inventore animi!</p>
+               <form class="animate_animated animate__bounceIn animate__delay-2s animate__repeat-2" method="get" action="">
+                  <label for="fnombre">Nombre</label>
+                  <input type="text" id="fnombre" name="fnombre" value="">
+                  <label for="genero">Genero</label>
+                  <label>Masculino</label>
+                  <input type="radio" id="masculino" name="genero" value="masculino">
+                  <label>Femenino</label>
+                  <input type="radio" id="femenino" name="genero" value="femenino">
+                  
+                  <label for="pais">Pais</label> 
+                  <select id="pais-ul" name="pais-ul">
+                      <option value="mx">Mexico</option>
+                      <option value="es">Espana</option>
+                      <option value="us">Estados Unidos</option>
+                      <option value="it">Italia</option>
+                      <option value="co">Colombia</option>
+                      <option value="bo">Bolivia</option>
+                  </select>
+                  <label for="color fav">Cual es tu color favorito?</label>
+                  <input type="color" value="" id="color-fav" name="color-fav">
+                  <label for="">Elige genero musical que mas te guste</label>
+                  <input type="checkbox" id="g-musical1" name="jazz" value="Jazz">
+                  <label for="id-musical1">Jazz</label>
+                  <input type="checkbox" id="g-musical2" name="rap" value="Rap">
+                  <label for="id-musical2">Rap</label>
+                  <input type="checkbox" id="g-musical3" name="r&b" value="R&B">
+                  <label for="id-musical3">RandB</label>
+                  <input type="checkbox" id="g-musical4" name="reggaeton" value="Reggaeton">
+                  <label for="id-musical4">Reggaeton</label>
+                  
+                  <input type="submit" value="Enviar">
+               </form>
+           </section>
+           <section>
+               <h2>Formulario</h2>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum similique obcaecati minima cumque tenetur incidunt quas, explicabo soluta voluptatem aspernatur et magni ad enim omnis atque est dolor minus esse neque culpa corporis quam vero maiores doloribus. Placeat molestias minima ex, temporibus odit animi ducimus, debitis ipsa corporis ut, obcaecati!</p>
+               <form class="animate_animated animate__bounceIn animate__delay-2s animate__repeat-2" action="" method="get">
+                   <labe form="nombre-1">Nombre</label>
+                   <input type="text" id="nombre-1" name="nombre-1" value="">
+                   <label for="email-1">Email</label>
+                   <input type="email" id="email-1" name="email-1" value="">
+                   <label for="mensaje">Comentario:</label>
+                   <textarea name="mensaje" rows="30" cols="40">Escribe aqui tu mensaje</textarea>
+                   <input type="submit" value="Enviar">
+               </form>
+           </section>
+        </main>
+        <footer>
+            <h6>Elaborador por Javier Aguila Campos</h6>
+        </footer>
+    </body>
+</html>
